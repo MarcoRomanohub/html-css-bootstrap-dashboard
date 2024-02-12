@@ -1,0 +1,29 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+.dbg{
+  border: 1px dotted violet;
+  background-color: black;
+}
+
+header{
+  line-height: 70px;
+  height: 70px;
+  
+}
+
+nav{
+  width: 150px;
+  background-color: #061F36;
+  height: calc(100vh - 70px);
+}
+
+.mr_container{
+  width: calc(100vw - 150px);
+  height: calc(100vh - 70px);
+}
