@@ -69,6 +69,16 @@ thead tr td:first-child{
   width: 60%;
 }
 
+td img{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px
+}
+
+td .btn i{
+  font-size: 1rem;
+}
+
 .card-body p.card-text{
   font-size: .6rem;
 }
