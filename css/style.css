@@ -8,14 +8,34 @@ img{
 
 .dbg{
   border: 1px dotted violet;
-  background-color: black;
+  /* background-color: black; */
 }
 
 header{
-  line-height: 70px;
   height: 70px;
-  
+  display: flex;
+  align-items: center;
+  background-color: #F8F9FA;
 }
+
+.topbar{
+  height: 50px;
+  background-color: white;
+
+}
+
+.logo{
+  width: 170px;
+}
+
+nav{
+  height: 40px;
+}
+
+.options{
+  width: 160px;
+}
+
 /* Main Main Main */
 .menu{
   width: 150px;
@@ -33,7 +53,7 @@ header{
   background-color: #1B72E9;
 }
 
-.row div{
+.row .col-12{
   height: 500px;
 }
 
@@ -45,7 +65,7 @@ header{
   ************************************ */
 
   @media screen and (max-width:768px) {
-    nav{
+    .menu{
       width: 70px;
     }
     .mr_container{
