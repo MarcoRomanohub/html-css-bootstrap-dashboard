@@ -64,10 +64,22 @@ nav{
   ********************************++**
   ************************************ */
 
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:992px) {
+    .logo{
+      width: 88px;
+    }
+    
+    .options{
+      width: 50px;
+    }
+
     .menu{
       width: 70px;
     }
+    .menu .btn span{
+      display: none;
+    }
+
     .mr_container{
       width: calc(100vw - 70px);
     }
