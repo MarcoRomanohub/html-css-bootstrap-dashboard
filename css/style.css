@@ -47,6 +47,10 @@ nav{
   height: calc(100vh - 70px);
 }
 
+.menu .btn:hover{
+  background-color: rgba(128, 128, 128, 0.333);
+}
+
 .mr_container{
   width: calc(100vw - 150px);
   height: calc(100vh - 70px);
@@ -55,10 +59,6 @@ nav{
 .banner{
   height: 120px;
   background-color: #1B72E9;
-}
-
-.row .col-12{
-  height: 500px;
 }
 
 thead tr td{
