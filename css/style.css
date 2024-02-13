@@ -16,8 +16,8 @@ header{
   height: 70px;
   
 }
-
-nav{
+/* Main Main Main */
+.menu{
   width: 150px;
   background-color: #061F36;
   height: calc(100vh - 70px);
@@ -27,3 +27,33 @@ nav{
   width: calc(100vw - 150px);
   height: calc(100vh - 70px);
 }
+
+.banner{
+  height: 120px;
+  background-color: #1B72E9;
+}
+
+.row div{
+  height: 500px;
+}
+
+
+/* ***********************************
+  ************************************
+  *******SOLUZIONI RESPONSIVE*********
+  ********************************++**
+  ************************************ */
+
+  @media screen and (max-width:768px) {
+    nav{
+      width: 70px;
+    }
+    .mr_container{
+      width: calc(100vw - 70px);
+    }
+  }
+  
+
+  @media screen and (max-width:576px) {
+    
+  }
