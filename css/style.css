@@ -38,6 +38,12 @@ nav{
 .options{
   width: 160px;
 }
+.options .btn i{
+  margin-right: 1px;
+}
+.options .dropdown i{
+  color: #F28E3C;
+}
 
 /* Main Main Main */
 .menu{
@@ -130,6 +136,10 @@ td .btn i{
     .right-banner .offcanvas {
       width: 100% !important;
     }
+
+    .left-banner .app{
+      display: none !important;
+    }
   }
   
 
@@ -141,6 +151,21 @@ td .btn i{
 
     .banner{
       height: 263px;
+      flex-direction: column-reverse;
+    }
+
+    .banner .center-banner{
+      order:1;
+      margin-left: 10px;
+    }
+
+    .banner .left-banner{
+      order: 2;
+    }
+
+    .banner .right-banner{
+      order: 3;
+      margin-left: 10px;
     }
 
   }

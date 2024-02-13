@@ -17,16 +17,37 @@
 </head>
 <body>
   <header>
-    <div class="topbar d-flex justify-content-between align-items-center w-100 dbg">
-      <div class="logo h-100 d-flex align-items-center  dbg">
-        <img src="img/logo.svg" alt="" class="d-none d-lg-block">
-        <img src="img/mobile-logo.png" alt="" class="d-lg-none w-100 h-100 object-fit-contain ">
+    <div class="topbar d-flex justify-content-between align-items-center w-100 ">
+      <div class="logo h-100 d-flex align-items-center  ">
+        <img src="img/logo.svg" alt="" class="d-none d-xl-block">
+        <img src="img/mobile-logo.png" alt="" class="d-xl-none w-100 h-100 object-fit-contain ">
       </div>
-      <nav class="d-flex flex-grow-1 dbg bg-secondary-subtle rounded-2">
+      <nav class="d-flex flex-grow-1  bg-secondary-subtle rounded-2">
         <span class="d-flex align-items-center px-2 "><i class="fa-solid fa-magnifying-glass"></i></span>
         <input type="search" class="w-100 h-100 bg-secondary-subtle border-0 ps-1" placeholder="Prova a cercare: Lezioni di Laravel">
       </nav>
-      <div class="options h-100 dbg d-flex align-items-center "></div>
+      <div class="options h-100  d-flex align-items-center ">
+        <button class="btn d-none d-xl-flex">
+          <i class="fa-solid fa-ellipsis-vertical"></i><i class="fa-solid fa-bars"></i>
+        </button>
+        <button class="btn d-none d-xl-block">
+          <i class="fa-solid fa-circle-question"></i>
+        </button>
+        <button class="btn d-none d-xl-block">
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </button>
+        <div class="dropdown">
+          <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-bell"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end ">
+            <li><a class="dropdown-item" href="#">Profilo</a></li>
+            <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+        
+      </div>
     </div>
   </header>
   <!-- FINE HEADER -->
@@ -46,7 +67,7 @@
     </div>
 <!-- FINE SIDE BAR FINE SIDE BAR -->
 
-    <div class="mr_container overflow-scroll overflow-x-hidden">
+    <div class="mr_container overflow-y-auto overflow-x-hidden">
       <div class="banner d-flex justify-content-between">
         <div class="left-banner text-white pt-3 ps-2 ">
           <div class="top-left-banner d-flex">
@@ -61,7 +82,7 @@
           </div>
         </div>
 
-        <div class="centre-banner text-white me-5 pt-3 ">
+        <div class="center-banner text-white me-5 pt-3 ">
           <h6>Studenti online negli ultimi 30 minuti</h6>
           <h4>125</h4>
         </div>
@@ -117,7 +138,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-xl-8 dbg">
+        <div class="col-12 col-xl-8 ">
           <div class="card mx-auto my-3 w_99 ">
             <h5 class="card-header">Prossime Classi</h5>
             <div class="card-body">
@@ -165,7 +186,7 @@
                     </td>
                     <td>15 Feb 2021</td>
                     <td>20%</td>
-                    <td><span class="badge text-bg-success">Done</span></td>
+                    <td><span class="badge text-bg-warning text-white">Process</span></td>
                     <td class="d-flex justify">
                       <button type="button" class="btn btn-outline-secondary mx-2 "><i class="fa-solid fa-pencil"></i></button>
                       <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
@@ -191,7 +212,7 @@
                     </td>
                     <td>15 Feb 2021</td>
                     <td>20%</td>
-                    <td><span class="badge text-bg-success">Done</span></td>
+                    <td><span class="badge text-bg-danger">Failed</span></td>
                     <td class="d-flex justify">
                       <button type="button" class="btn btn-outline-secondary mx-2 "><i class="fa-solid fa-pencil"></i></button>
                       <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
@@ -217,7 +238,7 @@
                     </td>
                     <td>15 Feb 2021</td>
                     <td>20%</td>
-                    <td><span class="badge text-bg-success">Done</span></td>
+                    <td><span class="badge text-bg-danger">Failed</span></td>
                     <td class="d-flex justify">
                       <button type="button" class="btn btn-outline-secondary mx-2 "><i class="fa-solid fa-pencil"></i></button>
                       <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
@@ -281,7 +302,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-xl-4 dbg">
+        <div class="col-12 col-xl-4 ">
           <div class="card mx-auto my-3 w_99 ">
             <h5 class="card-header">Todo</h5>
             <div class="card-body">
