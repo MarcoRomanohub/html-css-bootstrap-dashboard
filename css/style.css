@@ -25,7 +25,6 @@ header{
 .topbar{
   height: 50px;
   background-color: white;
-
 }
 
 .logo{
@@ -59,6 +58,13 @@ nav{
 .banner{
   height: 120px;
   background-color: #1B72E9;
+}
+
+.left-banner .mr_btn{
+  font-size: .8rem;
+  background-color: #165BBA;
+  padding:0 5px ;
+  border-radius: 1.3rem;
 }
 
 thead tr td{
@@ -105,6 +111,10 @@ td .btn i{
       display: none;
     }
 
+    .banner{
+      height: 136px;
+    }
+
     .mr_container{
       width: calc(100vw - 70px);
     }
@@ -116,4 +126,9 @@ td .btn i{
     tr td:nth-child(3){
       display: none;
     }
+
+    .banner{
+      height: 263px;
+    }
+
   }
