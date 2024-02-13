@@ -69,6 +69,10 @@ thead tr td:first-child{
   width: 60%;
 }
 
+.card-body p.card-text{
+  font-size: .6rem;
+}
+
 /* ***********************************
   ************************************
   *******SOLUZIONI RESPONSIVE*********
