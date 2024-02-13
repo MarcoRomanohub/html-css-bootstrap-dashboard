@@ -67,6 +67,17 @@ nav{
   border-radius: 1.3rem;
 }
 
+.right-banner .btn{
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  
+}
+
+.right-banner .btn i{
+  
+}
+
 thead tr td{
   width: 20%;
 }
