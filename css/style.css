@@ -11,6 +11,10 @@ img{
   /* background-color: black; */
 }
 
+.w_99{
+  width: 99%;
+}
+
 header{
   height: 70px;
   display: flex;
@@ -57,6 +61,13 @@ nav{
   height: 500px;
 }
 
+thead tr td{
+  width: 20%;
+}
+
+thead tr td:first-child{
+  width: 60%;
+}
 
 /* ***********************************
   ************************************
@@ -64,7 +75,7 @@ nav{
   ********************************++**
   ************************************ */
 
-  @media screen and (max-width:992px) {
+  @media screen and (max-width:1200px) {
     .logo{
       width: 88px;
     }
@@ -87,5 +98,8 @@ nav{
   
 
   @media screen and (max-width:576px) {
-    
+    tr td:nth-child(2),
+    tr td:nth-child(3){
+      display: none;
+    }
   }
